@@ -2,13 +2,15 @@ def write_mulligan(hand):
     s = ""
     for i in hand:
         s += i
-    f = open('data/mulligan.txt', "a")
+    #f = open('data/mulligan.txt', "a")
+    f = open('data/mulligan_2.txt', "a")
     f.write(s)
     f.write('\n')
     f.close
 
 def P_mulligan():
-    f = open('data/mulligan.txt')
+    #f = open('data/mulligan.txt')
+    f = open('data/mulligan_2.txt')
     hands = f.readlines()
     f.close()
     length = len(hands)
@@ -51,13 +53,15 @@ def write_turn4_field(field):
     s = ""
     for i in field:
         s += i
-    f = open('data/turn4.txt', "a")
+    #f = open('data/turn4.txt', "a")
+    f = open('data/turn4_2.txt', "a")
     f.write(s)
     f.write('\n')
     f.close
 
 def P_turn4():
-    f = open('data/turn4.txt')
+    #f = open('data/turn4.txt')
+    f = open('data/turn4_2.txt')
     fields = f.readlines()
     f.close()
     length = len(fields)
@@ -80,13 +84,15 @@ def write_turn5_field(field):
     s = ""
     for i in field:
         s += i
-    f = open('data/turn5.txt', "a")
+    #f = open('data/turn5.txt', "a")
+    f = open('data/turn5_2.txt', "a")
     f.write(s)
     f.write('\n')
     f.close
 
 def P_turn5():
-    f = open('data/turn5.txt')
+    #f = open('data/turn5.txt')
+    f = open('data/turn5_2.txt')
     fields = f.readlines()
     f.close()
     length = len(fields)

@@ -14,18 +14,20 @@ def main():
         "h","h", #コンディクター
         "i","i","i", #有翼
         "j","j", #令嬢
-        "k","k","k", #エルヴィーラ
+        "k","k", #エルヴィーラ2投
+        #"k","k","k", #エルヴィーラ3投
         "l","l","l", #アイテール
         "m","m", #オリシル
         "n","n", #アルミラ
-        "o","o", #エルラーデ
+        "o","o","o" #エルラーデ3投
+        #"o","o", #エルラーデ2投
         "p","p","p", #ジャンヌ
         "q" #アポストロアームズ
     ]
 
     school_card_list = ["a","b","d","e","j","k"]
 
-    for i in range(70000):
+    for i in range(100000):
         deck_mulligan= copy.deepcopy(deck)
         deck_now = copy.deepcopy(deck)
         hand = []
